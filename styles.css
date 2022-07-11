@@ -83,7 +83,9 @@ ul li a {
   height: 53px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding-inline-start: 90px;
+  padding-inline-end: 90px;
   background: var(--primary-color);
   color: whitesmoke;
   text-transform: uppercase;
@@ -91,6 +93,14 @@ ul li a {
   margin-bottom: 16px;
   border-radius: 9px;
   transition: background 150ms;
+}
+
+a.git {
+  padding-inline-end: 110px;
+}
+
+a.linkedin {
+  padding-inline-end: 95px;
 }
 
 ul li a img {
