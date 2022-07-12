@@ -60,14 +60,26 @@ h1 {
   font-size: 37px;
   margin-top: 24px;
   margin-bottom: 8px;
-  color: var(--text-color);
+  /* color: var(--text-color); */
+
+  /* fundo gradiente */
+  background-image: linear-gradient(40deg, #098726 45%, #075e1b 75%);
+  /* fundo gradiente dentro do texto */
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* cor do texto transparent */
+  color: transparent;
 }
 
 .username {
   font-weight: 700;
-  opacity: 0.7;
+  opacity: 0.9;
   font-size: 17px;
-  color: var(--text-color);
+  transition: 150ms linear;
+  background-image: linear-gradient(40deg, #098726 55%, #075e1b 85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .username:hover {
