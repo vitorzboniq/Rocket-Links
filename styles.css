@@ -18,10 +18,8 @@ a {
 
 body.dark {
   --bg-color: #000000fd;
-  --text-color: #10e943a1;
-  --primary-color: #04691b;
-  --primary-color-dark: #044613;
-  
+  --text-color: #05721f;
+  --primary-color-dark: #055718;
 }
 
 body.cof {
@@ -33,6 +31,9 @@ body.cof {
 
 body {
   background: var(--bg-color);
+  /* background: linear-gradient(55deg, #000000 45%, #011305 90%); */
+  /* background: linear-gradient(55deg, #000000 45%, #011305 90%); */
+  background: linear-gradient(40deg, #000000 16.62%, #021f08 85.61%);
   color: var(--text-color);
   font-family: 'Roboto', sans-serif;
 
@@ -86,7 +87,8 @@ ul li a {
   justify-content: space-evenly;
   padding-inline-start: 90px;
   padding-inline-end: 90px;
-  background: var(--primary-color);
+  /* background: var(--primary-color); */
+  background: linear-gradient(40deg, #05721f 30%, #055718 80%);
   color: whitesmoke;
   text-transform: uppercase;
   font-size: 14px;
@@ -108,7 +110,8 @@ ul li a img {
 }
 
 ul li a:hover {
-  background: var(--primary-color-dark);
+  /* background: var(--primary-color-dark); */
+  background: linear-gradient(40deg, #066a1d 30%, #044613 80%);
   font-size: 14.5px;
   height: 54px;
   width: 301px;
